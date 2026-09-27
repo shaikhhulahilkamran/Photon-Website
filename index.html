@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photon — Photography</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="logo" href="#">Photon</a>
+
+  <input type="checkbox" id="menu-toggle">
+  <label class="menu-btn" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+
+  <nav>
+    <a class="active" href="#home">HOME</a>
+    <div class="dropdown">
+      <a href="#gallery">GALLERY <span>⌄</span></a>
+      <div class="dropdown-menu">
+        <a href="#gallery">Nature</a>
+        <a href="#gallery">Portrait</a>
+        <a href="#gallery">People</a>
+      </div>
+    </div>
+    <a href="#services">SERVICES</a>
+    <a href="#blog">BLOG</a>
+    <a href="#about">ABOUT</a>
+    <a href="#reviews">REVIEWS</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+
+  <div class="socials">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+  </div>
+</header>
+
+<main id="home">
+  <section class="gallery" id="gallery">
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=85" alt="Nature">
+      <div class="overlay">
+        <h2>Nature</h2>
+        <a href="#">MORE PHOTOS</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85" alt="Portrait">
+      <div class="overlay">
+        <h2>Portrait</h2>
+        <a href="#">MORE PHOTOS</a>
+      </div>
+      <div class="dots"><span class="selected"></span><span></span><span></span><span></span><span></span></div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85" alt="People">
+      <div class="overlay">
+        <h2>People</h2>
+        <a href="#">MORE PHOTOS</a>
+      </div>
+      <div class="arrow">→</div>
+    </article>
+  </section>
+
+  <section class="info" id="services">
+    <div><span>01</span><h3>Photography</h3><p>Creative photography for portraits, events, products and special moments.</p></div>
+    <div><span>02</span><h3>Photo Editing</h3><p>Professional color correction, retouching and cinematic finishing.</p></div>
+    <div><span>03</span><h3>Visual Stories</h3><p>Beautiful visual storytelling designed around your unique style.</p></div>
+  </section>
+
+  <section class="text-section" id="blog">
+    <p class="eyebrow">OUR JOURNAL</p>
+    <h2>Stories behind the photographs.</h2>
+    <p>Explore selected work, photography ideas and behind-the-scenes stories.</p>
+  </section>
+
+  <section class="text-section" id="about">
+    <p class="eyebrow">ABOUT PHOTON</p>
+    <h2>Capturing moments that stay with you.</h2>
+    <p>Photon is a modern photography portfolio created to showcase memorable images with a clean and elegant presentation.</p>
+  </section>
+
+  <section class="text-section" id="reviews">
+    <p class="eyebrow">REVIEWS</p>
+    <h2>What clients say</h2>
+    <blockquote>“Beautiful work, smooth communication and amazing attention to detail.”</blockquote>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="eyebrow">GET IN TOUCH</p>
+    <h2>Let's create something beautiful.</h2>
+    <a href="mailto:hello@example.com" class="contact-btn">CONTACT US</a>
+  </section>
+</main>
+
+<footer>
+  Copyright © 2026 All rights reserved | Photon Photography
+</footer>
+
+</body>
+</html>
